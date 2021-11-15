@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  display: inline-flex;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.App-Route-Choice {
+  background-color: #000000;
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.App-Route-Choice a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 46px;
+}
+
+.intro {
+  margin-top: 50px;
+  font-size: 5em;
+  padding: 10px;
+  color: white;
+  font-size: 120px;
+  font-weight: 800;
+}
+
+#box::after {
+  content: "Welcome...";
+  display:flex;  
+  transform:rotateX(180deg);
+  background-image:
+    linear-gradient(180deg,rgba(255,255,255,.0) 10%,rgba(255,255,255,.5));
+  -webkit-background-clip: text;
+  color: transparent;
+}
